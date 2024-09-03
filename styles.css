@@ -1,12 +1,65 @@
-body{    
+body {
     color: black;
-    background: lightblue;
+    background: #add8e6;
     margin: 0px;
+    font-family: "Playwrite DK Uloopet", cursive;
+    margin-bottom: 100px;
 }
 
-header{ 
-    border:solid 2px white;
+
+
+header {
+    border-bottom: solid 2px rgb(255, 255, 255);
     padding: 20px;
-    font-size: 22px;
+    font-size: 32px;
     color: rgb(255, 255, 255);
-}   
+}
+
+
+.chamada {
+    background: rgb(215, 215, 194);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 39px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 19px;
+}
+
+.videos {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border:1px solid green;
+}
+
+.videos h2 {
+    color: rgb(255, 255, 255);
+
+}
